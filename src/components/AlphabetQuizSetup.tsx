@@ -43,6 +43,8 @@ export function AlphabetQuizSetup({ section }: { section: Section }) {
     const [modes, setModes] = useState<QuizMode[]>([AVAILABLE_MODES[0]]);
     const [seedNum, setSeedNum] = useState(1);
     const [started, setStarted] = useState(false);
+    // Snapshot scheme at start so changing it mid-quiz doesn't reshuffle.
+    const [frozenScheme, setFrozenScheme] = useState(scheme);
 
     // Build the answer pool from the current selection + category.
     const pool = useMemo<Card[]>(() => {
@@ -77,9 +79,9 @@ export function AlphabetQuizSetup({ section }: { section: Section }) {
             modes: modes.length ? modes : [AVAILABLE_MODES[0]],
             section,
             seed: `${section}|${category}|${selectionKey}|${modes.join(",")}|${effectiveCount}|${seedNum}`,
-            scheme,
+            scheme: frozenScheme,
         });
-    }, [started, pool, effectiveCount, modes, section, category, selectionKey, seedNum, scheme]);
+    }, [started, pool, effectiveCount, modes, section, category, selectionKey, seedNum, frozenScheme]);
 
     function toggleMode(m: QuizMode) {
         setModes((prev) => (prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m]));
@@ -262,7 +264,7 @@ export function AlphabetQuizSetup({ section }: { section: Section }) {
 
             <div className="mt-5 flex items-center gap-2">
                 <button
-                    onClick={() => setStarted(true)}
+                    onClick={() => { setFrozenScheme(scheme); setStarted(true); }}
                     disabled={!canStart}
                     className="flex-1 rounded-lg bg-accent px-4 py-2.5 font-medium text-white transition hover:opacity-90 disabled:opacity-40"
                 >

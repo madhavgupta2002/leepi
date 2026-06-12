@@ -22,6 +22,8 @@ export function QuizSetup({
     const [modes, setModes] = useState<QuizMode[]>([availableModes[0]]);
     const [seedNum, setSeedNum] = useState(1);
     const [started, setStarted] = useState(false);
+    // Snapshot scheme at start so changing it mid-quiz doesn't reshuffle.
+    const [frozenScheme, setFrozenScheme] = useState(scheme);
 
     const maxCount = Math.min(50, pool.length);
 
@@ -33,9 +35,9 @@ export function QuizSetup({
             modes: modes.length ? modes : [availableModes[0]],
             section,
             seed: `${section}|${modes.join(",")}|${count}|${seedNum}`,
-            scheme,
+            scheme: frozenScheme,
         });
-    }, [started, pool, count, modes, section, seedNum, scheme, availableModes, maxCount]);
+    }, [started, pool, count, modes, section, seedNum, frozenScheme, availableModes, maxCount]);
 
     function toggleMode(m: QuizMode) {
         setModes((prev) => (prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m]));
@@ -102,7 +104,7 @@ export function QuizSetup({
 
             <div className="mt-5 flex items-center gap-2">
                 <button
-                    onClick={() => setStarted(true)}
+                    onClick={() => { setFrozenScheme(scheme); setStarted(true); }}
                     disabled={modes.length === 0}
                     className="flex-1 rounded-lg bg-accent px-4 py-2.5 font-medium text-white transition hover:opacity-90 disabled:opacity-40"
                 >
