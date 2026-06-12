@@ -148,29 +148,29 @@ export function AlphabetQuizSetup({ section }: { section: Section }) {
 
             {/* Vowel matrix */}
             <div className="mt-5">
-                    <div className="mb-2 flex items-center justify-between">
-                        <p className="text-sm font-medium">
-                            Vowels {category === "combination" ? "(used as vowel signs)" : ""}
-                        </p>
-                        <button
-                            onClick={() => toggleRow(selVowels, setSelVowels, ALL_VOWEL_IDS)}
-                            className="rounded-md border border-border px-2 py-0.5 text-xs hover:bg-accent/10"
-                        >
-                            {vowelsAllOn ? "Clear row" : "Select row"}
-                        </button>
-                    </div>
-                    <div className="flex flex-wrap gap-1.5">
-                        {VOWELS.map((v) => (
-                            <Cell
-                                key={v.id}
-                                on={selVowels.has(v.id)}
-                                onClick={() => toggleId(selVowels, setSelVowels, v.id)}
-                                telugu={v.telugu}
-                                roman={scheme === "iso" ? v.iso : v.phonetic}
-                            />
-                        ))}
-                    </div>
+                <div className="mb-2 flex items-center justify-between">
+                    <p className="text-sm font-medium">
+                        Vowels {category === "combination" ? "(used as vowel signs)" : ""}
+                    </p>
+                    <button
+                        onClick={() => toggleRow(selVowels, setSelVowels, ALL_VOWEL_IDS)}
+                        className="rounded-md border border-border px-2 py-0.5 text-xs hover:bg-accent/10"
+                    >
+                        {vowelsAllOn ? "Clear row" : "Select row"}
+                    </button>
                 </div>
+                <div className="flex flex-wrap gap-1.5">
+                    {VOWELS.map((v) => (
+                        <Cell
+                            key={v.id}
+                            on={selVowels.has(v.id)}
+                            onClick={() => toggleId(selVowels, setSelVowels, v.id)}
+                            telugu={v.telugu}
+                            roman={scheme === "iso" ? v.iso : v.phonetic}
+                        />
+                    ))}
+                </div>
+            </div>
 
             {/* Consonant matrix */}
             <div className="mt-5">

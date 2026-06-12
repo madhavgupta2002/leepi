@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import type { Card } from "@/lib/types";
 import { useSettings } from "@/lib/romanization";
+import { speakTelugu } from "@/lib/speech";
 import { SpeakButton } from "@/components/SpeakButton";
 import { ProgressBar } from "@/components/ProgressBar";
 import { WordBreakdown } from "@/components/WordBreakdown";
@@ -17,13 +18,20 @@ export function FlashcardStudy({
     startIndex?: number;
     onClose: () => void;
 }) {
-    const { pickRoman, globalReveal } = useSettings();
+    const { pickRoman, globalReveal, audio, autoSpeak } = useSettings();
     const [index, setIndex] = useState(startIndex);
     const [flipped, setFlipped] = useState(false);
     const [autoReveal, setAutoReveal] = useState(false);
 
     const total = cards.length;
     const card = cards[index];
+
+    // Auto-play the current card's pronunciation when it changes, if enabled.
+    useEffect(() => {
+        if (audio && autoSpeak && card) {
+            speakTelugu(card.telugu);
+        }
+    }, [index, audio, autoSpeak, card]);
 
     const go = useCallback(
         (delta: number) => {
@@ -111,7 +119,9 @@ export function FlashcardStudy({
                             <SpeakButton text={card.telugu} />
                         </div>
 
-                        <div className="telugu text-6xl leading-tight sm:text-7xl">{card.telugu}</div>
+                        <div className={`telugu max-w-full wrap-break-word px-2 leading-tight ${fullscreenSizeClass(card.telugu)}`}>
+                            {card.telugu}
+                        </div>
 
                         {showRoman ? (
                             <div className="space-y-2">
@@ -164,4 +174,12 @@ export function FlashcardStudy({
             </p>
         </div>
     );
+}
+
+/** Scale the fullscreen Telugu glyph down for long words so they never overflow. */
+function fullscreenSizeClass(text: string): string {
+    const n = [...text.replace(/\s+/g, "")].length;
+    if (n <= 8) return "text-6xl sm:text-7xl";
+    if (n <= 14) return "text-5xl sm:text-6xl";
+    return "text-4xl sm:text-5xl";
 }

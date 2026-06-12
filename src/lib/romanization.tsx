@@ -18,16 +18,19 @@ interface Settings {
     globalReveal: boolean;
     /** Audio (speech synthesis) enabled. */
     audio: boolean;
+    /** Auto-play pronunciation when advancing to a new card/question. Off by default. */
+    autoSpeak: boolean;
 }
 
 interface SettingsContextValue extends Settings {
     setScheme: (s: RomanScheme) => void;
     toggleReveal: () => void;
     toggleAudio: () => void;
+    toggleAutoSpeak: () => void;
     pickRoman: (roman: Roman) => string;
 }
 
-const DEFAULTS: Settings = { scheme: "phonetic", globalReveal: false, audio: true };
+const DEFAULTS: Settings = { scheme: "phonetic", globalReveal: false, audio: true, autoSpeak: false };
 const STORAGE_KEY = "telugu-reading-settings-v1";
 
 const SettingsContext = createContext<SettingsContextValue | null>(null);
@@ -64,6 +67,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
             setScheme: (scheme) => update({ scheme }),
             toggleReveal: () => update({ globalReveal: !settings.globalReveal }),
             toggleAudio: () => update({ audio: !settings.audio }),
+            toggleAutoSpeak: () => update({ autoSpeak: !settings.autoSpeak }),
             pickRoman: (roman) => (settings.scheme === "iso" ? roman.iso : roman.phonetic),
         }),
         [settings, update],

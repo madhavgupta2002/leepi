@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useSettings } from "@/lib/romanization";
 
 export function SettingsPanel() {
-    const { scheme, setScheme, globalReveal, toggleReveal, audio, toggleAudio } = useSettings();
+    const { scheme, setScheme, globalReveal, toggleReveal, audio, toggleAudio, autoSpeak, toggleAutoSpeak } =
+        useSettings();
     const [open, setOpen] = useState(false);
 
     return (
@@ -53,6 +54,16 @@ export function SettingsPanel() {
                                 <span className="block text-xs text-muted">Uses your device&apos;s Telugu voice</span>
                             </span>
                             <Toggle on={audio} onClick={toggleAudio} />
+                        </label>
+
+                        <label className="mt-3 flex items-center justify-between gap-2 text-sm">
+                            <span>
+                                Auto-play pronunciation
+                                <span className="block text-xs text-muted">
+                                    Speaks each new card &amp; question automatically
+                                </span>
+                            </span>
+                            <Toggle on={autoSpeak} onClick={toggleAutoSpeak} />
                         </label>
                     </div>
                 </>

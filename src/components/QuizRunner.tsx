@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { QuizQuestion, QuizOption, Section } from "@/lib/types";
 import { useProgress } from "@/lib/progress";
-import { Romanized } from "@/lib/romanization";
+import { Romanized, useSettings } from "@/lib/romanization";
 import { SpeakButton } from "@/components/SpeakButton";
 import { ProgressBar } from "@/components/ProgressBar";
 import { WordBreakdown } from "@/components/WordBreakdown";
@@ -30,6 +30,7 @@ export function QuizRunner({
     onExit: () => void;
 }) {
     const { recordAnswer, recordQuiz } = useProgress();
+    const { audio, autoSpeak } = useSettings();
     // One chosen option id per question (null = unanswered).
     const [answers, setAnswers] = useState<(string | null)[]>(() => questions.map(() => null));
     const [index, setIndex] = useState(0);
@@ -51,15 +52,17 @@ export function QuizRunner({
 
     const allAnswered = answers.every((a) => a !== null);
 
-    // Auto-play audio prompts when arriving at an audio question.
+    // Auto-play audio prompts always; auto-play any question's Telugu when the
+    // global auto-speak setting is on.
     useEffect(() => {
-        if (current?.speak && !done) {
-            const t = setTimeout(() => {
-                import("@/lib/speech").then((m) => m.speakTelugu(current.speak!));
-            }, 250);
-            return () => clearTimeout(t);
-        }
-    }, [current, done]);
+        if (done || !current) return;
+        const text = current.speak ?? (autoSpeak && audio ? teluguOf(current) : null);
+        if (!text) return;
+        const t = setTimeout(() => {
+            import("@/lib/speech").then((m) => m.speakTelugu(text));
+        }, 250);
+        return () => clearTimeout(t);
+    }, [current, done, autoSpeak, audio]);
 
     const choose = useCallback(
         (opt: QuizOption) => {
@@ -190,10 +193,10 @@ export function QuizRunner({
                         >
                             <span
                                 className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border text-sm font-bold ${state === "correct"
-                                        ? "border-green-500 bg-green-500 text-white"
-                                        : state === "wrong"
-                                            ? "border-red-500 bg-red-500 text-white"
-                                            : "border-border bg-background"
+                                    ? "border-green-500 bg-green-500 text-white"
+                                    : state === "wrong"
+                                        ? "border-red-500 bg-red-500 text-white"
+                                        : "border-border bg-background"
                                     }`}
                             >
                                 {LETTERS[i]}

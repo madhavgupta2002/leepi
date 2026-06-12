@@ -7,9 +7,7 @@ import { SpeakButton } from "@/components/SpeakButton";
 
 export function Flashcard({ card, masteryLevel }: { card: Card; masteryLevel?: number }) {
     const [flipped, setFlipped] = useState(false);
-    const { pickRoman, globalReveal } = useSettings();
-
-    return (
+    const { pickRoman, globalReveal } = useSettings(); return (
         <div className="[perspective:1200px]">
             <div
                 role="button"
@@ -26,7 +24,11 @@ export function Flashcard({ card, masteryLevel }: { card: Card; masteryLevel?: n
                 {/* Front */}
                 <div className="flip-face absolute inset-0 flex flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-card p-4 shadow-sm">
                     {typeof masteryLevel === "number" && <MasteryDots level={masteryLevel} />}
-                    <div className="telugu text-5xl sm:text-6xl">{card.telugu}</div>
+                    <div
+                        className={`telugu w-full wrap-break-word px-2 text-center leading-tight ${teluguSizeClass(card.telugu)}`}
+                    >
+                        {card.telugu}
+                    </div>
                     {globalReveal && (
                         <div className="text-sm text-amber-700 dark:text-amber-300">{pickRoman(card.roman)}</div>
                     )}
@@ -55,6 +57,15 @@ export function Flashcard({ card, masteryLevel }: { card: Card; masteryLevel?: n
             </div>
         </div>
     );
+}
+
+/** Scale the Telugu glyph size down for longer words so they never overflow the card. */
+function teluguSizeClass(text: string): string {
+    const n = [...text.replace(/\s+/g, "")].length;
+    if (n <= 4) return "text-5xl sm:text-6xl";
+    if (n <= 7) return "text-4xl sm:text-5xl";
+    if (n <= 10) return "text-3xl sm:text-4xl";
+    return "text-2xl sm:text-3xl";
 }
 
 function MasteryDots({ level }: { level: number }) {
