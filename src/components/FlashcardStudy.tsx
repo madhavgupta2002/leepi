@@ -20,6 +20,7 @@ export function FlashcardStudy({
     const { pickRoman, globalReveal } = useSettings();
     const [index, setIndex] = useState(startIndex);
     const [flipped, setFlipped] = useState(false);
+    const [autoReveal, setAutoReveal] = useState(false);
 
     const total = cards.length;
     const card = cards[index];
@@ -52,18 +53,38 @@ export function FlashcardStudy({
     }, [go, onClose]);
 
     if (!card) return null;
-    const showRoman = globalReveal || flipped;
+    const showRoman = globalReveal || autoReveal || flipped;
 
     return (
         <div className="fixed inset-0 z-50 flex flex-col bg-background">
             {/* Top bar */}
-            <div className="flex items-center justify-between border-b border-border px-4 py-3">
+            <div className="flex items-center justify-between gap-3 border-b border-border px-4 py-3">
                 <span className="text-sm text-muted">
                     {index + 1} / {total}
                 </span>
                 <div className="flex-1 px-4">
                     <ProgressBar value={(index + 1) / total} />
                 </div>
+                <button
+                    onClick={() => setAutoReveal((v) => !v)}
+                    aria-pressed={autoReveal}
+                    title="Keep answers visible on every card"
+                    className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm font-medium transition ${autoReveal
+                        ? "border-accent bg-accent text-white"
+                        : "border-border hover:bg-accent/10"
+                        }`}
+                >
+                    <span
+                        className={`flex h-4 w-7 items-center rounded-full px-0.5 transition ${autoReveal ? "bg-white/30" : "bg-border"
+                            }`}
+                    >
+                        <span
+                            className={`h-3 w-3 rounded-full bg-current transition ${autoReveal ? "translate-x-3" : ""
+                                }`}
+                        />
+                    </span>
+                    Auto-reveal
+                </button>
                 <button
                     onClick={onClose}
                     className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium hover:bg-accent/10"
@@ -139,7 +160,7 @@ export function FlashcardStudy({
                 </button>
             </div>
             <p className="pb-3 text-center text-xs text-muted">
-                Arrow keys to navigate · Space to flip · Esc to close
+                Arrow keys to navigate · Space to flip · Auto-reveal keeps answers shown · Esc to close
             </p>
         </div>
     );
