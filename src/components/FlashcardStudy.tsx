@@ -9,139 +9,138 @@ import { WordBreakdown } from "@/components/WordBreakdown";
 
 /** Fullscreen, navigable flashcard study mode. */
 export function FlashcardStudy({
-  cards,
-  startIndex = 0,
-  onClose,
+    cards,
+    startIndex = 0,
+    onClose,
 }: {
-  cards: Card[];
-  startIndex?: number;
-  onClose: () => void;
+    cards: Card[];
+    startIndex?: number;
+    onClose: () => void;
 }) {
-  const { pickRoman, globalReveal } = useSettings();
-  const [index, setIndex] = useState(startIndex);
-  const [flipped, setFlipped] = useState(false);
+    const { pickRoman, globalReveal } = useSettings();
+    const [index, setIndex] = useState(startIndex);
+    const [flipped, setFlipped] = useState(false);
 
-  const total = cards.length;
-  const card = cards[index];
+    const total = cards.length;
+    const card = cards[index];
 
-  const go = useCallback(
-    (delta: number) => {
-      setIndex((i) => Math.min(total - 1, Math.max(0, i + delta)));
-      setFlipped(false);
-    },
-    [total],
-  );
+    const go = useCallback(
+        (delta: number) => {
+            setIndex((i) => Math.min(total - 1, Math.max(0, i + delta)));
+            setFlipped(false);
+        },
+        [total],
+    );
 
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "ArrowRight") {
-        e.preventDefault();
-        go(1);
-      } else if (e.key === "ArrowLeft") {
-        e.preventDefault();
-        go(-1);
-      } else if (e.key === " " || e.key === "Enter" || e.key === "ArrowUp" || e.key === "ArrowDown") {
-        e.preventDefault();
-        setFlipped((f) => !f);
-      } else if (e.key === "Escape") {
-        onClose();
-      }
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [go, onClose]);
+    useEffect(() => {
+        function onKey(e: KeyboardEvent) {
+            if (e.key === "ArrowRight") {
+                e.preventDefault();
+                go(1);
+            } else if (e.key === "ArrowLeft") {
+                e.preventDefault();
+                go(-1);
+            } else if (e.key === " " || e.key === "Enter" || e.key === "ArrowUp" || e.key === "ArrowDown") {
+                e.preventDefault();
+                setFlipped((f) => !f);
+            } else if (e.key === "Escape") {
+                onClose();
+            }
+        }
+        window.addEventListener("keydown", onKey);
+        return () => window.removeEventListener("keydown", onKey);
+    }, [go, onClose]);
 
-  if (!card) return null;
-  const showRoman = globalReveal || flipped;
+    if (!card) return null;
+    const showRoman = globalReveal || flipped;
 
-  return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-background">
-      {/* Top bar */}
-      <div className="flex items-center justify-between border-b border-border px-4 py-3">
-        <span className="text-sm text-muted">
-          {index + 1} / {total}
-        </span>
-        <div className="flex-1 px-4">
-          <ProgressBar value={(index + 1) / total} />
-        </div>
-        <button
-          onClick={onClose}
-          className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium hover:bg-accent/10"
-        >
-          ✕ Close
-        </button>
-      </div>
-
-      {/* Card */}
-      <div className="flex flex-1 items-start justify-center overflow-y-auto p-4">
-        <div className="w-full max-w-2xl">
-          <button
-            type="button"
-            onClick={() => setFlipped((f) => !f)}
-            className={`relative flex min-h-[40vh] w-full flex-col items-center justify-center gap-6 rounded-3xl border p-8 text-center transition ${
-              flipped ? "border-accent/40 bg-accent-soft" : "border-border bg-card"
-            }`}
-          >
-            {card.category && (
-              <span className="absolute left-5 top-5 rounded-full bg-accent/15 px-3 py-1 text-xs font-medium capitalize text-accent">
-                {card.category}
-              </span>
-            )}
-            <div className="absolute right-5 top-5">
-              <SpeakButton text={card.telugu} />
+    return (
+        <div className="fixed inset-0 z-50 flex flex-col bg-background">
+            {/* Top bar */}
+            <div className="flex items-center justify-between border-b border-border px-4 py-3">
+                <span className="text-sm text-muted">
+                    {index + 1} / {total}
+                </span>
+                <div className="flex-1 px-4">
+                    <ProgressBar value={(index + 1) / total} />
+                </div>
+                <button
+                    onClick={onClose}
+                    className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium hover:bg-accent/10"
+                >
+                    ✕ Close
+                </button>
             </div>
 
-            <div className="telugu text-6xl leading-tight sm:text-7xl">{card.telugu}</div>
+            {/* Card */}
+            <div className="flex flex-1 items-start justify-center overflow-y-auto p-4">
+                <div className="w-full max-w-2xl">
+                    <button
+                        type="button"
+                        onClick={() => setFlipped((f) => !f)}
+                        className={`relative flex min-h-[40vh] w-full flex-col items-center justify-center gap-6 rounded-3xl border p-8 text-center transition ${flipped ? "border-accent/40 bg-accent-soft" : "border-border bg-card"
+                            }`}
+                    >
+                        {card.category && (
+                            <span className="absolute left-5 top-5 rounded-full bg-accent/15 px-3 py-1 text-xs font-medium capitalize text-accent">
+                                {card.category}
+                            </span>
+                        )}
+                        <div className="absolute right-5 top-5">
+                            <SpeakButton text={card.telugu} />
+                        </div>
 
-            {showRoman ? (
-              <div className="space-y-2">
-                <div className="text-2xl font-semibold text-accent sm:text-3xl">{pickRoman(card.roman)}</div>
-                {card.english && <div className="text-lg font-medium">{card.english}</div>}
-                {card.example && (
-                  <div className="mt-2 rounded-xl bg-card/70 px-4 py-2 text-sm">
-                    <span className="telugu text-lg">{card.example.telugu}</span>{" "}
-                    <span className="text-muted">— {card.example.english}</span>
-                    <div className="text-amber-700 dark:text-amber-300">{pickRoman(card.example.roman)}</div>
-                  </div>
-                )}
-              </div>
-            ) : (
-              <span className="text-sm text-muted">tap or press space to reveal</span>
-            )}
-          </button>
+                        <div className="telugu text-6xl leading-tight sm:text-7xl">{card.telugu}</div>
 
-          {showRoman && <WordBreakdown text={card.telugu} className="mt-4" />}
+                        {showRoman ? (
+                            <div className="space-y-2">
+                                <div className="text-2xl font-semibold text-accent sm:text-3xl">{pickRoman(card.roman)}</div>
+                                {card.english && <div className="text-lg font-medium">{card.english}</div>}
+                                {card.example && (
+                                    <div className="mt-2 rounded-xl bg-card/70 px-4 py-2 text-sm">
+                                        <span className="telugu text-lg">{card.example.telugu}</span>{" "}
+                                        <span className="text-muted">— {card.example.english}</span>
+                                        <div className="text-amber-700 dark:text-amber-300">{pickRoman(card.example.roman)}</div>
+                                    </div>
+                                )}
+                            </div>
+                        ) : (
+                            <span className="text-sm text-muted">tap or press space to reveal</span>
+                        )}
+                    </button>
+
+                    {showRoman && <WordBreakdown text={card.telugu} className="mt-4" />}
+                </div>
+            </div>
+
+            {/* Controls */}
+            <div className="flex items-center justify-center gap-3 border-t border-border px-4 py-4">
+                <button
+                    onClick={() => go(-1)}
+                    disabled={index === 0}
+                    className="rounded-xl border border-border px-5 py-3 text-lg font-medium transition hover:bg-accent/10 disabled:opacity-30"
+                    aria-label="Previous card"
+                >
+                    ← Prev
+                </button>
+                <button
+                    onClick={() => setFlipped((f) => !f)}
+                    className="rounded-xl bg-accent px-6 py-3 font-medium text-white transition hover:opacity-90"
+                >
+                    Flip
+                </button>
+                <button
+                    onClick={() => go(1)}
+                    disabled={index >= total - 1}
+                    className="rounded-xl border border-border px-5 py-3 text-lg font-medium transition hover:bg-accent/10 disabled:opacity-30"
+                    aria-label="Next card"
+                >
+                    Next →
+                </button>
+            </div>
+            <p className="pb-3 text-center text-xs text-muted">
+                Arrow keys to navigate · Space to flip · Esc to close
+            </p>
         </div>
-      </div>
-
-      {/* Controls */}
-      <div className="flex items-center justify-center gap-3 border-t border-border px-4 py-4">
-        <button
-          onClick={() => go(-1)}
-          disabled={index === 0}
-          className="rounded-xl border border-border px-5 py-3 text-lg font-medium transition hover:bg-accent/10 disabled:opacity-30"
-          aria-label="Previous card"
-        >
-          ← Prev
-        </button>
-        <button
-          onClick={() => setFlipped((f) => !f)}
-          className="rounded-xl bg-accent px-6 py-3 font-medium text-white transition hover:opacity-90"
-        >
-          Flip
-        </button>
-        <button
-          onClick={() => go(1)}
-          disabled={index >= total - 1}
-          className="rounded-xl border border-border px-5 py-3 text-lg font-medium transition hover:bg-accent/10 disabled:opacity-30"
-          aria-label="Next card"
-        >
-          Next →
-        </button>
-      </div>
-      <p className="pb-3 text-center text-xs text-muted">
-        Arrow keys to navigate · Space to flip · Esc to close
-      </p>
-    </div>
-  );
+    );
 }
