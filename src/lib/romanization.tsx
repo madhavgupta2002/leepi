@@ -95,6 +95,13 @@ export function Romanized({
     const show = globalReveal || revealed;
     const text = pickRoman(roman);
 
+    // When the global toggle changes, sync the local reveal to it so the global
+    // button can both reveal and hide — even after an individual "show romaji".
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setRevealed(globalReveal);
+    }, [globalReveal]);
+
     if (show) {
         return <span className={`text-amber-700 dark:text-amber-300 ${className}`}>{text}</span>;
     }
