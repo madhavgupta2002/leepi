@@ -11,11 +11,14 @@ export function QuizTabs({
     section,
     availableModes,
     setupTitle,
+    generated,
 }: {
     pool: Card[];
     section: Section;
     availableModes: QuizMode[];
     setupTitle: string;
+    /** Optional custom "Practice quiz" setup. Falls back to the generic QuizSetup. */
+    generated?: React.ReactNode;
 }) {
     const [tab, setTab] = useState<"generated" | "curated">("generated");
     const curated = curatedForSection(section);
@@ -32,7 +35,9 @@ export function QuizTabs({
             </div>
 
             {tab === "generated" ? (
-                <QuizSetup pool={pool} section={section} availableModes={availableModes} title={setupTitle} />
+                generated ?? (
+                    <QuizSetup pool={pool} section={section} availableModes={availableModes} title={setupTitle} />
+                )
             ) : curated.length ? (
                 <CuratedQuizList quizzes={curated} section={section} />
             ) : (

@@ -1,5 +1,6 @@
 import { PageHeader } from "@/components/PageHeader";
 import { QuizTabs } from "@/components/QuizTabs";
+import { AlphabetQuizSetup } from "@/components/AlphabetQuizSetup";
 import { VOWEL_CARDS, CONSONANT_CARDS, ALL_COMBINATIONS } from "@/data/alphabet";
 
 export const metadata = { title: "Alphabet quiz — Leepi" };
@@ -19,6 +20,7 @@ export default function AlphabetQuizPage() {
                 section="alphabet"
                 availableModes={["te-to-roman", "roman-to-te", "audio-to-te"]}
                 setupTitle="Letters & syllables practice"
+                generated={<AlphabetQuizSetup section="alphabet" />}
             />
         </div>
     );
