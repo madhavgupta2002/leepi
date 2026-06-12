@@ -1,0 +1,882 @@
+[
+  {
+    "id": "s-1",
+    "telugu": "నా పేరు రవి.",
+    "iso": "nā pēru ravi.",
+    "phonetic": "naa paeru ravi.",
+    "english": "My name is Ravi.",
+    "level": 1
+  },
+  {
+    "id": "s-2",
+    "telugu": "నీ పేరు ఏమిటి?",
+    "iso": "nī pēru ēmiṭi?",
+    "phonetic": "nee paeru aemiti?",
+    "english": "What is your name?",
+    "level": 1
+  },
+  {
+    "id": "s-3",
+    "telugu": "నేను బాగున్నాను.",
+    "iso": "nēnu bāgunnānu.",
+    "phonetic": "naenu baagunnaanu.",
+    "english": "I am fine.",
+    "level": 1
+  },
+  {
+    "id": "s-4",
+    "telugu": "నువ్వు ఎలా ఉన్నావు?",
+    "iso": "nuvvu elā unnāvu?",
+    "phonetic": "nuvvu elaa unnaavu?",
+    "english": "How are you?",
+    "level": 1
+  },
+  {
+    "id": "s-5",
+    "telugu": "ఇది నా ఇల్లు.",
+    "iso": "idi nā illu.",
+    "phonetic": "idi naa illu.",
+    "english": "This is my house.",
+    "level": 1
+  },
+  {
+    "id": "s-6",
+    "telugu": "అది ఒక చెట్టు.",
+    "iso": "adi oka ceṭṭu.",
+    "phonetic": "adi oka cettu.",
+    "english": "That is a tree.",
+    "level": 1
+  },
+  {
+    "id": "s-7",
+    "telugu": "నాకు నీళ్ళు కావాలి.",
+    "iso": "nāku nīḷḷu kāvāli.",
+    "phonetic": "naaku neeluluu kaavaali.",
+    "english": "I want water.",
+    "level": 1
+  },
+  {
+    "id": "s-8",
+    "telugu": "నాకు ఆకలి వేస్తోంది.",
+    "iso": "nāku ākali vēstōṁdi.",
+    "phonetic": "naaku aakali vaestoomdi.",
+    "english": "I am hungry.",
+    "level": 1
+  },
+  {
+    "id": "s-9",
+    "telugu": "ఇది చాలా బాగుంది.",
+    "iso": "idi cālā bāguṁdi.",
+    "phonetic": "idi caalaa baagumdi.",
+    "english": "This is very good.",
+    "level": 1
+  },
+  {
+    "id": "s-10",
+    "telugu": "నేను తెలుగు నేర్చుకుంటున్నాను.",
+    "iso": "nēnu telugu nērcukuṁṭunnānu.",
+    "phonetic": "naenu telugu naercukumtunnaanu.",
+    "english": "I am learning Telugu.",
+    "level": 1
+  },
+  {
+    "id": "s-11",
+    "telugu": "దయచేసి ఇక్కడ కూర్చోండి.",
+    "iso": "dayacēsi ikkaḍa kūrcōṁḍi.",
+    "phonetic": "dayacaesi ikkada koorcoomdi.",
+    "english": "Please sit here.",
+    "level": 1
+  },
+  {
+    "id": "s-12",
+    "telugu": "మీకు ధన్యవాదాలు.",
+    "iso": "mīku dhanyavādālu.",
+    "phonetic": "meeku dhanyavaadaalu.",
+    "english": "Thank you.",
+    "level": 1
+  },
+  {
+    "id": "s-13",
+    "telugu": "నాకు అర్థం కాలేదు.",
+    "iso": "nāku arthaṁ kālēdu.",
+    "phonetic": "naaku artham kaalaedu.",
+    "english": "I did not understand.",
+    "level": 1
+  },
+  {
+    "id": "s-14",
+    "telugu": "మెల్లగా మాట్లాడండి.",
+    "iso": "mellagā māṭlāḍaṁḍi.",
+    "phonetic": "mellagaa maatlaadamdi.",
+    "english": "Please speak slowly.",
+    "level": 1
+  },
+  {
+    "id": "s-15",
+    "telugu": "ఇది ఎంత?",
+    "iso": "idi eṁta?",
+    "phonetic": "idi emta?",
+    "english": "How much is this?",
+    "level": 1
+  },
+  {
+    "id": "s-16",
+    "telugu": "నేను బడికి వెళుతున్నాను.",
+    "iso": "nēnu baḍiki veḷutunnānu.",
+    "phonetic": "naenu badiki veluutunnaanu.",
+    "english": "I am going to school.",
+    "level": 1
+  },
+  {
+    "id": "s-17",
+    "telugu": "అమ్మ వంట చేస్తోంది.",
+    "iso": "amma vaṁṭa cēstōṁdi.",
+    "phonetic": "amma vamta caestoomdi.",
+    "english": "Mother is cooking.",
+    "level": 1
+  },
+  {
+    "id": "s-18",
+    "telugu": "పిల్లలు ఆడుతున్నారు.",
+    "iso": "pillalu āḍutunnāru.",
+    "phonetic": "pillalu aadutunnaaru.",
+    "english": "The children are playing.",
+    "level": 1
+  },
+  {
+    "id": "s-19",
+    "telugu": "సూర్యుడు ఉదయిస్తున్నాడు.",
+    "iso": "sūryuḍu udayistunnāḍu.",
+    "phonetic": "sooryudu udayistunnaadu.",
+    "english": "The sun is rising.",
+    "level": 1
+  },
+  {
+    "id": "s-20",
+    "telugu": "ఆకాశం నీలంగా ఉంది.",
+    "iso": "ākāśaṁ nīlaṁgā uṁdi.",
+    "phonetic": "aakaasham neelamgaa umdi.",
+    "english": "The sky is blue.",
+    "level": 1
+  },
+  {
+    "id": "s-21",
+    "telugu": "ఈ రోజు వాన పడుతోంది.",
+    "iso": "ī rōju vāna paḍutōṁdi.",
+    "phonetic": "ee rooju vaana padutoomdi.",
+    "english": "It is raining today.",
+    "level": 2
+  },
+  {
+    "id": "s-22",
+    "telugu": "నాకు ఈ పుస్తకం నచ్చింది.",
+    "iso": "nāku ī pustakaṁ nacciṁdi.",
+    "phonetic": "naaku ee pustakam naccimdi.",
+    "english": "I like this book.",
+    "level": 2
+  },
+  {
+    "id": "s-23",
+    "telugu": "మేము స్నేహితులం.",
+    "iso": "mēmu snēhitulaṁ.",
+    "phonetic": "maemu snaehitulam.",
+    "english": "We are friends.",
+    "level": 1
+  },
+  {
+    "id": "s-24",
+    "telugu": "నేను రేపు వస్తాను.",
+    "iso": "nēnu rēpu vastānu.",
+    "phonetic": "naenu raepu vastaanu.",
+    "english": "I will come tomorrow.",
+    "level": 1
+  },
+  {
+    "id": "s-25",
+    "telugu": "అతను బాగా పాడతాడు.",
+    "iso": "atanu bāgā pāḍatāḍu.",
+    "phonetic": "atanu baagaa paadataadu.",
+    "english": "He sings well.",
+    "level": 1
+  },
+  {
+    "id": "s-26",
+    "telugu": "ఆమె చక్కగా రాస్తుంది.",
+    "iso": "āme cakkagā rāstuṁdi.",
+    "phonetic": "aame cakkagaa raastumdi.",
+    "english": "She writes nicely.",
+    "level": 1
+  },
+  {
+    "id": "s-27",
+    "telugu": "మాకు తెలుగు ఇష్టం.",
+    "iso": "māku telugu iṣṭaṁ.",
+    "phonetic": "maaku telugu ishtam.",
+    "english": "We like Telugu.",
+    "level": 1
+  },
+  {
+    "id": "s-28",
+    "telugu": "ఇక్కడికి రండి.",
+    "iso": "ikkaḍiki raṁḍi.",
+    "phonetic": "ikkadiki ramdi.",
+    "english": "Come here.",
+    "level": 1
+  },
+  {
+    "id": "s-29",
+    "telugu": "తలుపు మూసేయండి.",
+    "iso": "talupu mūsēyaṁḍi.",
+    "phonetic": "talupu moosaeyamdi.",
+    "english": "Close the door.",
+    "level": 1
+  },
+  {
+    "id": "s-30",
+    "telugu": "నాకు సహాయం చేయండి.",
+    "iso": "nāku sahāyaṁ cēyaṁḍi.",
+    "phonetic": "naaku sahaayam caeyamdi.",
+    "english": "Please help me.",
+    "level": 1
+  },
+  {
+    "id": "s-31",
+    "telugu": "ఇది నా మిత్రుడు.",
+    "iso": "idi nā mitruḍu.",
+    "phonetic": "idi naa mitrudu.",
+    "english": "This is my friend.",
+    "level": 1
+  },
+  {
+    "id": "s-32",
+    "telugu": "రేపు ఆదివారం.",
+    "iso": "rēpu ādivāraṁ.",
+    "phonetic": "raepu aadivaaram.",
+    "english": "Tomorrow is Sunday.",
+    "level": 1
+  },
+  {
+    "id": "s-33",
+    "telugu": "నాకు పాలు ఇష్టం.",
+    "iso": "nāku pālu iṣṭaṁ.",
+    "phonetic": "naaku paalu ishtam.",
+    "english": "I like milk.",
+    "level": 1
+  },
+  {
+    "id": "s-34",
+    "telugu": "పిల్లి పాలు తాగుతోంది.",
+    "iso": "pilli pālu tāgutōṁdi.",
+    "phonetic": "pilli paalu taagutoomdi.",
+    "english": "The cat is drinking milk.",
+    "level": 1
+  },
+  {
+    "id": "s-35",
+    "telugu": "నేను భోజనం చేశాను.",
+    "iso": "nēnu bhōjanaṁ cēśānu.",
+    "phonetic": "naenu bhoojanam caeshaanu.",
+    "english": "I have eaten food.",
+    "level": 1
+  },
+  {
+    "id": "s-36",
+    "telugu": "మంచి రోజు కావాలని కోరుకుంటున్నాను.",
+    "iso": "maṁci rōju kāvālani kōrukuṁṭunnānu.",
+    "phonetic": "mamci rooju kaavaalani koorukumtunnaanu.",
+    "english": "I wish you a good day.",
+    "level": 2
+  },
+  {
+    "id": "s-37",
+    "telugu": "నాకు తెలియదు.",
+    "iso": "nāku teliyadu.",
+    "phonetic": "naaku teliyadu.",
+    "english": "I don't know.",
+    "level": 1
+  },
+  {
+    "id": "s-38",
+    "telugu": "నాకు తెలుసు.",
+    "iso": "nāku telusu.",
+    "phonetic": "naaku telusu.",
+    "english": "I know.",
+    "level": 1
+  },
+  {
+    "id": "s-39",
+    "telugu": "మీరు ఎక్కడ నుండి వచ్చారు?",
+    "iso": "mīru ekkaḍa nuṁḍi vaccāru?",
+    "phonetic": "meeru ekkada numdi vaccaaru?",
+    "english": "Where are you from?",
+    "level": 2
+  },
+  {
+    "id": "s-40",
+    "telugu": "నేను భారతదేశం నుండి వచ్చాను.",
+    "iso": "nēnu bhāratadēśaṁ nuṁḍi vaccānu.",
+    "phonetic": "naenu bhaaratadaesham numdi vaccaanu.",
+    "english": "I am from India.",
+    "level": 2
+  },
+  {
+    "id": "s-41",
+    "telugu": "ఇది ఎక్కడ ఉంది?",
+    "iso": "idi ekkaḍa uṁdi?",
+    "phonetic": "idi ekkada umdi?",
+    "english": "Where is this?",
+    "level": 1
+  },
+  {
+    "id": "s-42",
+    "telugu": "సమయం ఎంత అయింది?",
+    "iso": "samayaṁ eṁta ayiṁdi?",
+    "phonetic": "samayam emta ayimdi?",
+    "english": "What time is it?",
+    "level": 1
+  },
+  {
+    "id": "s-43",
+    "telugu": "నాకు ఆకలిగా లేదు.",
+    "iso": "nāku ākaligā lēdu.",
+    "phonetic": "naaku aakaligaa laedu.",
+    "english": "I am not hungry.",
+    "level": 1
+  },
+  {
+    "id": "s-44",
+    "telugu": "నాకు దాహం వేస్తోంది.",
+    "iso": "nāku dāhaṁ vēstōṁdi.",
+    "phonetic": "naaku daaham vaestoomdi.",
+    "english": "I am thirsty.",
+    "level": 1
+  },
+  {
+    "id": "s-45",
+    "telugu": "దయచేసి మళ్ళీ చెప్పండి.",
+    "iso": "dayacēsi maḷḷī ceppaṁḍi.",
+    "phonetic": "dayacaesi maluluee ceppamdi.",
+    "english": "Please say it again.",
+    "level": 1
+  },
+  {
+    "id": "s-46",
+    "telugu": "నేను ఇంటికి వెళుతున్నాను.",
+    "iso": "nēnu iṁṭiki veḷutunnānu.",
+    "phonetic": "naenu imtiki veluutunnaanu.",
+    "english": "I am going home.",
+    "level": 1
+  },
+  {
+    "id": "s-47",
+    "telugu": "మేము సినిమాకు వెళ్తున్నాము.",
+    "iso": "mēmu sinimāku veḷtunnāmu.",
+    "phonetic": "maemu sinimaaku velutunnaamu.",
+    "english": "We are going to the movie.",
+    "level": 1
+  },
+  {
+    "id": "s-48",
+    "telugu": "అతను డాక్టర్.",
+    "iso": "atanu ḍākṭar.",
+    "phonetic": "atanu daaktar.",
+    "english": "He is a doctor.",
+    "level": 1
+  },
+  {
+    "id": "s-49",
+    "telugu": "ఆమె ఉపాధ్యాయురాలు.",
+    "iso": "āme upādhyāyurālu.",
+    "phonetic": "aame upaadhyaayuraalu.",
+    "english": "She is a teacher.",
+    "level": 1
+  },
+  {
+    "id": "s-50",
+    "telugu": "ఈ పండు తియ్యగా ఉంది.",
+    "iso": "ī paṁḍu tiyyagā uṁdi.",
+    "phonetic": "ee pamdu tiyyagaa umdi.",
+    "english": "This fruit is sweet.",
+    "level": 2
+  },
+  {
+    "id": "s-51",
+    "telugu": "కాఫీ వేడిగా ఉంది.",
+    "iso": "kāphī vēḍigā uṁdi.",
+    "phonetic": "kaaphee vaedigaa umdi.",
+    "english": "The coffee is hot.",
+    "level": 1
+  },
+  {
+    "id": "s-52",
+    "telugu": "నాకు తెలుగు భాష చాలా ఇష్టం.",
+    "iso": "nāku telugu bhāṣa cālā iṣṭaṁ.",
+    "phonetic": "naaku telugu bhaasha caalaa ishtam.",
+    "english": "I like the Telugu language very much.",
+    "level": 2
+  },
+  {
+    "id": "s-53",
+    "telugu": "మీ కుటుంబం ఎలా ఉంది?",
+    "iso": "mī kuṭuṁbaṁ elā uṁdi?",
+    "phonetic": "mee kutumbam elaa umdi?",
+    "english": "How is your family?",
+    "level": 2
+  },
+  {
+    "id": "s-54",
+    "telugu": "అందరూ బాగున్నారు.",
+    "iso": "aṁdarū bāgunnāru.",
+    "phonetic": "amdaroo baagunnaaru.",
+    "english": "Everyone is well.",
+    "level": 1
+  },
+  {
+    "id": "s-55",
+    "telugu": "నేను రోజూ చదువుతాను.",
+    "iso": "nēnu rōjū caduvutānu.",
+    "phonetic": "naenu roojoo caduvutaanu.",
+    "english": "I study every day.",
+    "level": 1
+  },
+  {
+    "id": "s-56",
+    "telugu": "పిల్లవాడు నిద్రపోతున్నాడు.",
+    "iso": "pillavāḍu nidrapōtunnāḍu.",
+    "phonetic": "pillavaadu nidrapootunnaadu.",
+    "english": "The boy is sleeping.",
+    "level": 1
+  },
+  {
+    "id": "s-57",
+    "telugu": "కుక్క బయట ఉంది.",
+    "iso": "kukka bayaṭa uṁdi.",
+    "phonetic": "kukka bayata umdi.",
+    "english": "The dog is outside.",
+    "level": 1
+  },
+  {
+    "id": "s-58",
+    "telugu": "పక్షులు ఆకాశంలో ఎగురుతున్నాయి.",
+    "iso": "pakṣulu ākāśaṁlō egurutunnāyi.",
+    "phonetic": "pakshulu aakaashamloo egurutunnaayi.",
+    "english": "The birds are flying in the sky.",
+    "level": 1
+  },
+  {
+    "id": "s-59",
+    "telugu": "మేము కలిసి భోజనం చేస్తాము.",
+    "iso": "mēmu kalisi bhōjanaṁ cēstāmu.",
+    "phonetic": "maemu kalisi bhoojanam caestaamu.",
+    "english": "We eat together.",
+    "level": 2
+  },
+  {
+    "id": "s-60",
+    "telugu": "ఈ పుస్తకం చాలా ఆసక్తికరంగా ఉంది.",
+    "iso": "ī pustakaṁ cālā āsaktikaraṁgā uṁdi.",
+    "phonetic": "ee pustakam caalaa aasaktikaramgaa umdi.",
+    "english": "This book is very interesting.",
+    "level": 2
+  },
+  {
+    "id": "s-61",
+    "telugu": "నేను నీకు సహాయం చేస్తాను.",
+    "iso": "nēnu nīku sahāyaṁ cēstānu.",
+    "phonetic": "naenu neeku sahaayam caestaanu.",
+    "english": "I will help you.",
+    "level": 2
+  },
+  {
+    "id": "s-62",
+    "telugu": "దయచేసి కొంచెం ఆగండి.",
+    "iso": "dayacēsi koṁceṁ āgaṁḍi.",
+    "phonetic": "dayacaesi komcem aagamdi.",
+    "english": "Please wait a moment.",
+    "level": 1
+  },
+  {
+    "id": "s-63",
+    "telugu": "మీరు బాగా మాట్లాడుతారు.",
+    "iso": "mīru bāgā māṭlāḍutāru.",
+    "phonetic": "meeru baagaa maatlaadutaaru.",
+    "english": "You speak well.",
+    "level": 1
+  },
+  {
+    "id": "s-64",
+    "telugu": "నాకు ఈ ప్రదేశం నచ్చింది.",
+    "iso": "nāku ī pradēśaṁ nacciṁdi.",
+    "phonetic": "naaku ee pradaesham naccimdi.",
+    "english": "I like this place.",
+    "level": 2
+  },
+  {
+    "id": "s-65",
+    "telugu": "వాతావరణం చాలా బాగుంది.",
+    "iso": "vātāvaraṇaṁ cālā bāguṁdi.",
+    "phonetic": "vaataavaranam caalaa baagumdi.",
+    "english": "The weather is very nice.",
+    "level": 1
+  },
+  {
+    "id": "s-66",
+    "telugu": "నేను రేపు పనికి వెళ్తాను.",
+    "iso": "nēnu rēpu paniki veḷtānu.",
+    "phonetic": "naenu raepu paniki velutaanu.",
+    "english": "I will go to work tomorrow.",
+    "level": 2
+  },
+  {
+    "id": "s-67",
+    "telugu": "మాకు రెండు పిల్లలు ఉన్నారు.",
+    "iso": "māku reṁḍu pillalu unnāru.",
+    "phonetic": "maaku remdu pillalu unnaaru.",
+    "english": "We have two children.",
+    "level": 2
+  },
+  {
+    "id": "s-68",
+    "telugu": "దయచేసి తలుపు తెరవండి.",
+    "iso": "dayacēsi talupu teravaṁḍi.",
+    "phonetic": "dayacaesi talupu teravamdi.",
+    "english": "Please open the door.",
+    "level": 1
+  },
+  {
+    "id": "s-69",
+    "telugu": "ఇక్కడ కూర్చోవచ్చా?",
+    "iso": "ikkaḍa kūrcōvaccā?",
+    "phonetic": "ikkada koorcoovaccaa?",
+    "english": "May I sit here?",
+    "level": 1
+  },
+  {
+    "id": "s-70",
+    "telugu": "నేను తెలుగు చదవగలను.",
+    "iso": "nēnu telugu cadavagalanu.",
+    "phonetic": "naenu telugu cadavagalanu.",
+    "english": "I can read Telugu.",
+    "level": 1
+  },
+  {
+    "id": "s-71",
+    "telugu": "నమస్కారము!",
+    "iso": "namaskāramu!",
+    "phonetic": "namaskaaramu!",
+    "english": "Hello!",
+    "level": 1
+  },
+  {
+    "id": "s-72",
+    "telugu": "అద్భుతం!",
+    "iso": "adbhutaṁ!",
+    "phonetic": "adbhutam!",
+    "english": "Wonderful!",
+    "level": 1
+  },
+  {
+    "id": "s-73",
+    "telugu": "అభినందనలు",
+    "iso": "abhinaṁdanalu",
+    "phonetic": "abhinamdanalu",
+    "english": "Congratulations!",
+    "level": 1
+  },
+  {
+    "id": "s-74",
+    "telugu": "తప్పకుండా",
+    "iso": "tappakuṁḍā",
+    "phonetic": "tappakumdaa",
+    "english": "Definitely!",
+    "level": 1
+  },
+  {
+    "id": "s-75",
+    "telugu": "తప్పు",
+    "iso": "tappu",
+    "phonetic": "tappu",
+    "english": "Wrong.",
+    "level": 1
+  },
+  {
+    "id": "s-76",
+    "telugu": "కాఫీ ఉంది.",
+    "iso": "kāphī uṁdi.",
+    "phonetic": "kaaphee umdi.",
+    "english": "There's coffee.",
+    "level": 1
+  },
+  {
+    "id": "s-77",
+    "telugu": "మీరు రొమేనియన్లా?",
+    "iso": "mīru romēniyanlā?",
+    "phonetic": "meeru romaeniyanlaa?",
+    "english": "Are you guys Romanian?",
+    "level": 1
+  },
+  {
+    "id": "s-78",
+    "telugu": "జాగ్రత్తగా చూస్తున్నావా?",
+    "iso": "jāgrattagā cūstunnāvā?",
+    "phonetic": "jaagrattagaa coostunnaavaa?",
+    "english": "Are you watching carefully?",
+    "level": 1
+  },
+  {
+    "id": "s-79",
+    "telugu": "వాళ్ళను మరచిపోయాము.",
+    "iso": "vāḷḷanu maracipōyāmu.",
+    "phonetic": "vaaluluanu maracipooyaamu.",
+    "english": "We forgot them.",
+    "level": 1
+  },
+  {
+    "id": "s-80",
+    "telugu": "మధ్యతరగతి అవస్థపడుతుంది.",
+    "iso": "madhyataragati avasthapaḍutuṁdi.",
+    "phonetic": "madhyataragati avasthapadutumdi.",
+    "english": "The middle class is struggling.",
+    "level": 1
+  },
+  {
+    "id": "s-81",
+    "telugu": "వాళ్ళు పోలీసులు.",
+    "iso": "vāḷḷu pōlīsulu.",
+    "phonetic": "vaaluluu pooleesulu.",
+    "english": "They're policemen.",
+    "level": 1
+  },
+  {
+    "id": "s-82",
+    "telugu": "మీరిద్దరూ సంగీతకారులా?",
+    "iso": "mīriddarū saṁgītakārulā?",
+    "phonetic": "meeriddaroo samgeetakaarulaa?",
+    "english": "Are you two musicians?",
+    "level": 1
+  },
+  {
+    "id": "s-83",
+    "telugu": "వాళ్లెవరు రాలేదు",
+    "iso": "vāḷlevaru rālēdu",
+    "phonetic": "vaalulevaru raalaedu",
+    "english": "None of them are present.",
+    "level": 1
+  },
+  {
+    "id": "s-84",
+    "telugu": "ఇంకేమి మిగల్లేదు",
+    "iso": "iṁkēmi migallēdu",
+    "phonetic": "imkaemi migallaedu",
+    "english": "There was nothing left.",
+    "level": 1
+  },
+  {
+    "id": "s-85",
+    "telugu": "నేను అంగీకరించను",
+    "iso": "nēnu aṁgīkariṁcanu",
+    "phonetic": "naenu amgeekarimcanu",
+    "english": "I don't accept it.",
+    "level": 1
+  },
+  {
+    "id": "s-86",
+    "telugu": "కోపమొచ్చిందా ?",
+    "iso": "kōpamocciṁdā ?",
+    "phonetic": "koopamoccimdaa ?",
+    "english": "Are you mad?",
+    "level": 1
+  },
+  {
+    "id": "s-87",
+    "telugu": "అవునా ?",
+    "iso": "avunā ?",
+    "phonetic": "avunaa ?",
+    "english": "Yes?",
+    "level": 1
+  },
+  {
+    "id": "s-88",
+    "telugu": "అతను పెట్టేసాడు",
+    "iso": "atanu peṭṭēsāḍu",
+    "phonetic": "atanu pettaesaadu",
+    "english": "He hung up.",
+    "level": 1
+  },
+  {
+    "id": "s-89",
+    "telugu": "వాళ్ళు మృగాలు",
+    "iso": "vāḷḷu mr̥gālu",
+    "phonetic": "vaaluluu mrgaalu",
+    "english": "They're animals.",
+    "level": 1
+  },
+  {
+    "id": "s-90",
+    "telugu": "నువ్వు చేయగలవు",
+    "iso": "nuvvu cēyagalavu",
+    "phonetic": "nuvvu caeyagalavu",
+    "english": "Yes, you can.",
+    "level": 1
+  },
+  {
+    "id": "s-91",
+    "telugu": "అయ్యో! పడిపోయాడా!",
+    "iso": "ayyō! paḍipōyāḍā!",
+    "phonetic": "ayyoo! padipooyaadaa!",
+    "english": "Aw, has he fallen!",
+    "level": 1
+  },
+  {
+    "id": "s-92",
+    "telugu": "అ! ఆశ్సర్యం!",
+    "iso": "a! āśsaryaṁ!",
+    "phonetic": "a! aashsaryam!",
+    "english": "Oh! Marvelous!",
+    "level": 1
+  },
+  {
+    "id": "s-93",
+    "telugu": "రాముకి ఇవ్వు.",
+    "iso": "rāmuki ivvu.",
+    "phonetic": "raamuki ivvu.",
+    "english": "Give this to Ramu.",
+    "level": 1
+  },
+  {
+    "id": "s-94",
+    "telugu": "అక్కడికి వెళ్ళు.",
+    "iso": "akkaḍiki veḷḷu.",
+    "phonetic": "akkadiki veluluu.",
+    "english": "Go there.",
+    "level": 1
+  },
+  {
+    "id": "s-95",
+    "telugu": "టీ తీసుకురా.",
+    "iso": "ṭī tīsukurā.",
+    "phonetic": "tee teesukuraa.",
+    "english": "Bring tea.",
+    "level": 1
+  },
+  {
+    "id": "s-96",
+    "telugu": "పని పూర్తయిందా?",
+    "iso": "pani pūrtayiṁdā?",
+    "phonetic": "pani poortayimdaa?",
+    "english": "Is the work done?",
+    "level": 1
+  },
+  {
+    "id": "s-97",
+    "telugu": "గులాబీ పూసిందా?",
+    "iso": "gulābī pūsiṁdā?",
+    "phonetic": "gulaabee poosimdaa?",
+    "english": "Has the rose blossomed?",
+    "level": 1
+  },
+  {
+    "id": "s-98",
+    "telugu": "లత వచ్చిందా?",
+    "iso": "lata vacciṁdā?",
+    "phonetic": "lata vaccimdaa?",
+    "english": "Has Lata come?",
+    "level": 1
+  },
+  {
+    "id": "s-99",
+    "telugu": "లలిత పిలిచింది.",
+    "iso": "lalita piliciṁdi.",
+    "phonetic": "lalita pilicimdi.",
+    "english": "Lalita called.",
+    "level": 1
+  },
+  {
+    "id": "s-100",
+    "telugu": "పాప ఏడ్చింది.",
+    "iso": "pāpa ēḍciṁdi.",
+    "phonetic": "paapa aedcimdi.",
+    "english": "The baby cried.",
+    "level": 1
+  },
+  {
+    "id": "s-101",
+    "telugu": "సీత నవ్వింది.",
+    "iso": "sīta navviṁdi.",
+    "phonetic": "seeta navvimdi.",
+    "english": "Sita smiled.",
+    "level": 1
+  },
+  {
+    "id": "s-102",
+    "telugu": "రాముడు వచ్చాడు.",
+    "iso": "rāmuḍu vaccāḍu.",
+    "phonetic": "raamudu vaccaadu.",
+    "english": "Ramudu came.",
+    "level": 1
+  },
+  {
+    "id": "s-103",
+    "telugu": "ఇది చదువు.",
+    "iso": "idi caduvu.",
+    "phonetic": "idi caduvu.",
+    "english": "Read this.",
+    "level": 1
+  },
+  {
+    "id": "s-104",
+    "telugu": "అతడు రాముడు.",
+    "iso": "ataḍu rāmuḍu.",
+    "phonetic": "atadu raamudu.",
+    "english": "He is Ramudu.",
+    "level": 1
+  },
+  {
+    "id": "s-105",
+    "telugu": "తమ పేరు ఏమండి?",
+    "iso": "tama pēru ēmaṁḍi?",
+    "phonetic": "tama paeru aemamdi?",
+    "english": "What's your name?",
+    "level": 1
+  },
+  {
+    "id": "s-106",
+    "telugu": "నీ పేరు ఏమి?",
+    "iso": "nī pēru ēmi?",
+    "phonetic": "nee paeru aemi?",
+    "english": "What is your name?",
+    "level": 1
+  },
+  {
+    "id": "s-107",
+    "telugu": "తను సాధించబోతుండగా వదిలిపెట్టేసింది.",
+    "iso": "tanu sādhiṁcabōtuṁḍagā vadilipeṭṭēsiṁdi.",
+    "phonetic": "tanu saadhimcabootumdagaa vadilipettaesimdi.",
+    "english": "She let up just when she was almost there.",
+    "level": 1
+  },
+  {
+    "id": "s-108",
+    "telugu": "మేము చాలా భయపడుతున్నాము.",
+    "iso": "mēmu cālā bhayapaḍutunnāmu.",
+    "phonetic": "maemu caalaa bhayapadutunnaamu.",
+    "english": "We're really scared.",
+    "level": 1
+  },
+  {
+    "id": "s-109",
+    "telugu": "అది నువ్వే అనుకుంటా",
+    "iso": "adi nuvvē anukuṁṭā",
+    "phonetic": "adi nuvvae anukumtaa",
+    "english": "I think it was you.",
+    "level": 1
+  },
+  {
+    "id": "s-110",
+    "telugu": "పేర్లన్నీ అక్షరక్రమంలో ఉన్నాయి.",
+    "iso": "pērlannī akṣarakramaṁlō unnāyi.",
+    "phonetic": "paerlannee aksharakramamloo unnaayi.",
+    "english": "All the names are in alphabetical order.",
+    "level": 1
+  }
+]

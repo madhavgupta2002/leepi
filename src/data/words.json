@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "w-1",
+    "telugu": "అమ్మ",
+    "iso": "amma",
+    "phonetic": "amma",
+    "english": "mother",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-2",
+    "telugu": "నాన్న",
+    "iso": "nānna",
+    "phonetic": "naanna",
+    "english": "father",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-3",
+    "telugu": "అక్క",
+    "iso": "akka",
+    "phonetic": "akka",
+    "english": "elder sister",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-4",
+    "telugu": "అన్న",
+    "iso": "anna",
+    "phonetic": "anna",
+    "english": "elder brother",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-5",
+    "telugu": "తమ్ముడు",
+    "iso": "tammuḍu",
+    "phonetic": "tammudu",
+    "english": "younger brother",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-6",
+    "telugu": "చెల్లి",
+    "iso": "celli",
+    "phonetic": "celli",
+    "english": "younger sister",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-7",
+    "telugu": "బిడ్డ",
+    "iso": "biḍḍa",
+    "phonetic": "bidda",
+    "english": "child",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-8",
+    "telugu": "స్నేహితుడు",
+    "iso": "snēhituḍu",
+    "phonetic": "snaehitudu",
+    "english": "friend",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-9",
+    "telugu": "మనిషి",
+    "iso": "maniṣi",
+    "phonetic": "manishi",
+    "english": "person",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-10",
+    "telugu": "గురువు",
+    "iso": "guruvu",
+    "phonetic": "guruvu",
+    "english": "teacher",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-11",
+    "telugu": "నీరు",
+    "iso": "nīru",
+    "phonetic": "neeru",
+    "english": "water",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-12",
+    "telugu": "నిప్పు",
+    "iso": "nippu",
+    "phonetic": "nippu",
+    "english": "fire",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-13",
+    "telugu": "గాలి",
+    "iso": "gāli",
+    "phonetic": "gaali",
+    "english": "wind",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-14",
+    "telugu": "ఆకాశం",
+    "iso": "ākāśaṁ",
+    "phonetic": "aakaasham",
+    "english": "sky",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-15",
+    "telugu": "సూర్యుడు",
+    "iso": "sūryuḍu",
+    "phonetic": "sooryudu",
+    "english": "sun",
+    "category": "nature",
+    "level": 3
+  },
+  {
+    "id": "w-16",
+    "telugu": "చంద్రుడు",
+    "iso": "caṁdruḍu",
+    "phonetic": "camdrudu",
+    "english": "moon",
+    "category": "nature",
+    "level": 3
+  },
+  {
+    "id": "w-17",
+    "telugu": "నక్షత్రం",
+    "iso": "nakṣatraṁ",
+    "phonetic": "nakshatram",
+    "english": "star",
+    "category": "nature",
+    "level": 3
+  },
+  {
+    "id": "w-18",
+    "telugu": "నది",
+    "iso": "nadi",
+    "phonetic": "nadi",
+    "english": "river",
+    "category": "nature",
+    "level": 1
+  },
+  {
+    "id": "w-19",
+    "telugu": "కొండ",
+    "iso": "koṁḍa",
+    "phonetic": "komda",
+    "english": "hill",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-20",
+    "telugu": "చెట్టు",
+    "iso": "ceṭṭu",
+    "phonetic": "cettu",
+    "english": "tree",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-21",
+    "telugu": "పువ్వు",
+    "iso": "puvvu",
+    "phonetic": "puvvu",
+    "english": "flower",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-22",
+    "telugu": "వాన",
+    "iso": "vāna",
+    "phonetic": "vaana",
+    "english": "rain",
+    "category": "nature",
+    "level": 1
+  },
+  {
+    "id": "w-23",
+    "telugu": "మేఘం",
+    "iso": "mēghaṁ",
+    "phonetic": "maegham",
+    "english": "cloud",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-24",
+    "telugu": "కుక్క",
+    "iso": "kukka",
+    "phonetic": "kukka",
+    "english": "dog",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-25",
+    "telugu": "పిల్లి",
+    "iso": "pilli",
+    "phonetic": "pilli",
+    "english": "cat",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-26",
+    "telugu": "ఆవు",
+    "iso": "āvu",
+    "phonetic": "aavu",
+    "english": "cow",
+    "category": "animals",
+    "level": 1
+  },
+  {
+    "id": "w-27",
+    "telugu": "గుర్రం",
+    "iso": "gurraṁ",
+    "phonetic": "gurram",
+    "english": "horse",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-28",
+    "telugu": "ఏనుగు",
+    "iso": "ēnugu",
+    "phonetic": "aenugu",
+    "english": "elephant",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-29",
+    "telugu": "పులి",
+    "iso": "puli",
+    "phonetic": "puli",
+    "english": "tiger",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-30",
+    "telugu": "సింహం",
+    "iso": "siṁhaṁ",
+    "phonetic": "simham",
+    "english": "lion",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-31",
+    "telugu": "చేప",
+    "iso": "cēpa",
+    "phonetic": "caepa",
+    "english": "fish",
+    "category": "animals",
+    "level": 1
+  },
+  {
+    "id": "w-32",
+    "telugu": "పక్షి",
+    "iso": "pakṣi",
+    "phonetic": "pakshi",
+    "english": "bird",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-33",
+    "telugu": "కోతి",
+    "iso": "kōti",
+    "phonetic": "kooti",
+    "english": "monkey",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-34",
+    "telugu": "అన్నం",
+    "iso": "annaṁ",
+    "phonetic": "annam",
+    "english": "rice / food",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-35",
+    "telugu": "పాలు",
+    "iso": "pālu",
+    "phonetic": "paalu",
+    "english": "milk",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-36",
+    "telugu": "పండు",
+    "iso": "paṁḍu",
+    "phonetic": "pamdu",
+    "english": "fruit",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-37",
+    "telugu": "మామిడి",
+    "iso": "māmiḍi",
+    "phonetic": "maamidi",
+    "english": "mango",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-38",
+    "telugu": "అరటి",
+    "iso": "araṭi",
+    "phonetic": "arati",
+    "english": "banana",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-39",
+    "telugu": "ఉప్పు",
+    "iso": "uppu",
+    "phonetic": "uppu",
+    "english": "salt",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-40",
+    "telugu": "చక్కెర",
+    "iso": "cakkera",
+    "phonetic": "cakkera",
+    "english": "sugar",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-41",
+    "telugu": "కూర",
+    "iso": "kūra",
+    "phonetic": "koora",
+    "english": "curry / vegetable",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "id": "w-42",
+    "telugu": "రొట్టె",
+    "iso": "roṭṭe",
+    "phonetic": "rotte",
+    "english": "bread",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-43",
+    "telugu": "నూనె",
+    "iso": "nūne",
+    "phonetic": "noone",
+    "english": "oil",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-44",
+    "telugu": "ఇల్లు",
+    "iso": "illu",
+    "phonetic": "illu",
+    "english": "house",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-45",
+    "telugu": "తలుపు",
+    "iso": "talupu",
+    "phonetic": "talupu",
+    "english": "door",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-46",
+    "telugu": "కిటికీ",
+    "iso": "kiṭikī",
+    "phonetic": "kitikee",
+    "english": "window",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-47",
+    "telugu": "పుస్తకం",
+    "iso": "pustakaṁ",
+    "phonetic": "pustakam",
+    "english": "book",
+    "category": "objects",
+    "level": 3
+  },
+  {
+    "id": "w-48",
+    "telugu": "కలం",
+    "iso": "kalaṁ",
+    "phonetic": "kalam",
+    "english": "pen",
+    "category": "objects",
+    "level": 1
+  },
+  {
+    "id": "w-49",
+    "telugu": "బల్ల",
+    "iso": "balla",
+    "phonetic": "balla",
+    "english": "table",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-50",
+    "telugu": "కుర్చీ",
+    "iso": "kurcī",
+    "phonetic": "kurcee",
+    "english": "chair",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-51",
+    "telugu": "దీపం",
+    "iso": "dīpaṁ",
+    "phonetic": "deepam",
+    "english": "lamp",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-52",
+    "telugu": "బట్ట",
+    "iso": "baṭṭa",
+    "phonetic": "batta",
+    "english": "cloth",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-53",
+    "telugu": "డబ్బు",
+    "iso": "ḍabbu",
+    "phonetic": "dabbu",
+    "english": "money",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-54",
+    "telugu": "బడి",
+    "iso": "baḍi",
+    "phonetic": "badi",
+    "english": "school",
+    "category": "objects",
+    "level": 1
+  },
+  {
+    "id": "w-55",
+    "telugu": "బండి",
+    "iso": "baṁḍi",
+    "phonetic": "bamdi",
+    "english": "vehicle / cart",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-56",
+    "telugu": "తల",
+    "iso": "tala",
+    "phonetic": "tala",
+    "english": "head",
+    "category": "body",
+    "level": 1
+  },
+  {
+    "id": "w-57",
+    "telugu": "కన్ను",
+    "iso": "kannu",
+    "phonetic": "kannu",
+    "english": "eye",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-58",
+    "telugu": "చెవి",
+    "iso": "cevi",
+    "phonetic": "cevi",
+    "english": "ear",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-59",
+    "telugu": "ముక్కు",
+    "iso": "mukku",
+    "phonetic": "mukku",
+    "english": "nose",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-60",
+    "telugu": "నోరు",
+    "iso": "nōru",
+    "phonetic": "nooru",
+    "english": "mouth",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-61",
+    "telugu": "చేయి",
+    "iso": "cēyi",
+    "phonetic": "caeyi",
+    "english": "hand",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-62",
+    "telugu": "కాలు",
+    "iso": "kālu",
+    "phonetic": "kaalu",
+    "english": "leg / foot",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-63",
+    "telugu": "ఎరుపు",
+    "iso": "erupu",
+    "phonetic": "erupu",
+    "english": "red",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-64",
+    "telugu": "నలుపు",
+    "iso": "nalupu",
+    "phonetic": "nalupu",
+    "english": "black",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-65",
+    "telugu": "తెలుపు",
+    "iso": "telupu",
+    "phonetic": "telupu",
+    "english": "white",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-66",
+    "telugu": "పసుపు",
+    "iso": "pasupu",
+    "phonetic": "pasupu",
+    "english": "yellow",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-67",
+    "telugu": "పచ్చ",
+    "iso": "pacca",
+    "phonetic": "pacca",
+    "english": "green",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-68",
+    "telugu": "ఒకటి",
+    "iso": "okaṭi",
+    "phonetic": "okati",
+    "english": "one",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-69",
+    "telugu": "రెండు",
+    "iso": "reṁḍu",
+    "phonetic": "remdu",
+    "english": "two",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-70",
+    "telugu": "మూడు",
+    "iso": "mūḍu",
+    "phonetic": "moodu",
+    "english": "three",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-71",
+    "telugu": "నాలుగు",
+    "iso": "nālugu",
+    "phonetic": "naalugu",
+    "english": "four",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-72",
+    "telugu": "ఐదు",
+    "iso": "aidu",
+    "phonetic": "aidu",
+    "english": "five",
+    "category": "numbers",
+    "level": 1
+  },
+  {
+    "id": "w-73",
+    "telugu": "ఆరు",
+    "iso": "āru",
+    "phonetic": "aaru",
+    "english": "six",
+    "category": "numbers",
+    "level": 1
+  },
+  {
+    "id": "w-74",
+    "telugu": "ఏడు",
+    "iso": "ēḍu",
+    "phonetic": "aedu",
+    "english": "seven",
+    "category": "numbers",
+    "level": 1
+  },
+  {
+    "id": "w-75",
+    "telugu": "ఎనిమిది",
+    "iso": "enimidi",
+    "phonetic": "enimidi",
+    "english": "eight",
+    "category": "numbers",
+    "level": 3
+  },
+  {
+    "id": "w-76",
+    "telugu": "తొమ్మిది",
+    "iso": "tommidi",
+    "phonetic": "tommidi",
+    "english": "nine",
+    "category": "numbers",
+    "level": 3
+  },
+  {
+    "id": "w-77",
+    "telugu": "పది",
+    "iso": "padi",
+    "phonetic": "padi",
+    "english": "ten",
+    "category": "numbers",
+    "level": 1
+  },
+  {
+    "id": "w-78",
+    "telugu": "తినడం",
+    "iso": "tinaḍaṁ",
+    "phonetic": "tinadam",
+    "english": "to eat",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-79",
+    "telugu": "తాగడం",
+    "iso": "tāgaḍaṁ",
+    "phonetic": "taagadam",
+    "english": "to drink",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-80",
+    "telugu": "చదవడం",
+    "iso": "cadavaḍaṁ",
+    "phonetic": "cadavadam",
+    "english": "to read",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-81",
+    "telugu": "రాయడం",
+    "iso": "rāyaḍaṁ",
+    "phonetic": "raayadam",
+    "english": "to write",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-82",
+    "telugu": "వెళ్ళడం",
+    "iso": "veḷḷaḍaṁ",
+    "phonetic": "veluluadam",
+    "english": "to go",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-83",
+    "telugu": "రావడం",
+    "iso": "rāvaḍaṁ",
+    "phonetic": "raavadam",
+    "english": "to come",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-84",
+    "telugu": "చూడడం",
+    "iso": "cūḍaḍaṁ",
+    "phonetic": "coodadam",
+    "english": "to see",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-85",
+    "telugu": "మాట్లాడడం",
+    "iso": "māṭlāḍaḍaṁ",
+    "phonetic": "maatlaadadam",
+    "english": "to speak",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-86",
+    "telugu": "మంచి",
+    "iso": "maṁci",
+    "phonetic": "mamci",
+    "english": "good",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-87",
+    "telugu": "చెడు",
+    "iso": "ceḍu",
+    "phonetic": "cedu",
+    "english": "bad",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-88",
+    "telugu": "పెద్ద",
+    "iso": "pedda",
+    "phonetic": "pedda",
+    "english": "big",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-89",
+    "telugu": "చిన్న",
+    "iso": "cinna",
+    "phonetic": "cinna",
+    "english": "small",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-90",
+    "telugu": "కొత్త",
+    "iso": "kotta",
+    "phonetic": "kotta",
+    "english": "new",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-91",
+    "telugu": "పాత",
+    "iso": "pāta",
+    "phonetic": "paata",
+    "english": "old",
+    "category": "adjectives",
+    "level": 1
+  },
+  {
+    "id": "w-92",
+    "telugu": "వేడి",
+    "iso": "vēḍi",
+    "phonetic": "vaedi",
+    "english": "hot",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-93",
+    "telugu": "చల్ల",
+    "iso": "calla",
+    "phonetic": "calla",
+    "english": "cold",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-94",
+    "telugu": "తాత",
+    "iso": "tāta",
+    "phonetic": "taata",
+    "english": "grandfather",
+    "category": "people",
+    "level": 1
+  },
+  {
+    "id": "w-95",
+    "telugu": "అమ్మమ్మ",
+    "iso": "ammamma",
+    "phonetic": "ammamma",
+    "english": "grandmother (maternal)",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-96",
+    "telugu": "నానమ్మ",
+    "iso": "nānamma",
+    "phonetic": "naanamma",
+    "english": "grandmother (paternal)",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-97",
+    "telugu": "మామయ్య",
+    "iso": "māmayya",
+    "phonetic": "maamayya",
+    "english": "uncle (maternal)",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-98",
+    "telugu": "అత్త",
+    "iso": "atta",
+    "phonetic": "atta",
+    "english": "aunt",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-99",
+    "telugu": "భార్య",
+    "iso": "bhārya",
+    "phonetic": "bhaarya",
+    "english": "wife",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-100",
+    "telugu": "భర్త",
+    "iso": "bharta",
+    "phonetic": "bharta",
+    "english": "husband",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-101",
+    "telugu": "కుమారుడు",
+    "iso": "kumāruḍu",
+    "phonetic": "kumaarudu",
+    "english": "son",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-102",
+    "telugu": "కుమార్తె",
+    "iso": "kumārte",
+    "phonetic": "kumaarte",
+    "english": "daughter",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-103",
+    "telugu": "వైద్యుడు",
+    "iso": "vaidyuḍu",
+    "phonetic": "vaidyudu",
+    "english": "doctor",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "w-104",
+    "telugu": "రైతు",
+    "iso": "raitu",
+    "phonetic": "raitu",
+    "english": "farmer",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "w-105",
+    "telugu": "భూమి",
+    "iso": "bhūmi",
+    "phonetic": "bhoomi",
+    "english": "earth / land",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-106",
+    "telugu": "సముద్రం",
+    "iso": "samudraṁ",
+    "phonetic": "samudram",
+    "english": "sea",
+    "category": "nature",
+    "level": 3
+  },
+  {
+    "id": "w-107",
+    "telugu": "అడవి",
+    "iso": "aḍavi",
+    "phonetic": "adavi",
+    "english": "forest",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-108",
+    "telugu": "ఆకు",
+    "iso": "āku",
+    "phonetic": "aaku",
+    "english": "leaf",
+    "category": "nature",
+    "level": 1
+  },
+  {
+    "id": "w-109",
+    "telugu": "విత్తనం",
+    "iso": "vittanaṁ",
+    "phonetic": "vittanam",
+    "english": "seed",
+    "category": "nature",
+    "level": 3
+  },
+  {
+    "id": "w-110",
+    "telugu": "మంచు",
+    "iso": "maṁcu",
+    "phonetic": "mamcu",
+    "english": "snow / dew",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-111",
+    "telugu": "రాయి",
+    "iso": "rāyi",
+    "phonetic": "raayi",
+    "english": "stone",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-112",
+    "telugu": "ఇసుక",
+    "iso": "isuka",
+    "phonetic": "isuka",
+    "english": "sand",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-113",
+    "telugu": "మట్టి",
+    "iso": "maṭṭi",
+    "phonetic": "matti",
+    "english": "soil",
+    "category": "nature",
+    "level": 2
+  },
+  {
+    "id": "w-114",
+    "telugu": "మేక",
+    "iso": "mēka",
+    "phonetic": "maeka",
+    "english": "goat",
+    "category": "animals",
+    "level": 1
+  },
+  {
+    "id": "w-115",
+    "telugu": "గొర్రె",
+    "iso": "gorre",
+    "phonetic": "gorre",
+    "english": "sheep",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-116",
+    "telugu": "ఎలుగుబంటి",
+    "iso": "elugubaṁṭi",
+    "phonetic": "elugubamti",
+    "english": "bear",
+    "category": "animals",
+    "level": 3
+  },
+  {
+    "id": "w-117",
+    "telugu": "నక్క",
+    "iso": "nakka",
+    "phonetic": "nakka",
+    "english": "fox",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-118",
+    "telugu": "పాము",
+    "iso": "pāmu",
+    "phonetic": "paamu",
+    "english": "snake",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-119",
+    "telugu": "కప్ప",
+    "iso": "kappa",
+    "phonetic": "kappa",
+    "english": "frog",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-120",
+    "telugu": "తాబేలు",
+    "iso": "tābēlu",
+    "phonetic": "taabaelu",
+    "english": "tortoise",
+    "category": "animals",
+    "level": 2
+  },
+  {
+    "id": "w-121",
+    "telugu": "సీతాకోకచిలుక",
+    "iso": "sītākōkaciluka",
+    "phonetic": "seetaakookaciluka",
+    "english": "butterfly",
+    "category": "animals",
+    "level": 3
+  },
+  {
+    "id": "w-122",
+    "telugu": "చీమ",
+    "iso": "cīma",
+    "phonetic": "ceema",
+    "english": "ant",
+    "category": "animals",
+    "level": 1
+  },
+  {
+    "id": "w-123",
+    "telugu": "నీళ్ళు",
+    "iso": "nīḷḷu",
+    "phonetic": "neeluluu",
+    "english": "water (plural)",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-124",
+    "telugu": "పెరుగు",
+    "iso": "perugu",
+    "phonetic": "perugu",
+    "english": "curd / yogurt",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-125",
+    "telugu": "నెయ్యి",
+    "iso": "neyyi",
+    "phonetic": "neyyi",
+    "english": "ghee",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-126",
+    "telugu": "కూరగాయలు",
+    "iso": "kūragāyalu",
+    "phonetic": "kooragaayalu",
+    "english": "vegetables",
+    "category": "food",
+    "level": 3
+  },
+  {
+    "id": "w-127",
+    "telugu": "ఉల్లిపాయ",
+    "iso": "ullipāya",
+    "phonetic": "ullipaaya",
+    "english": "onion",
+    "category": "food",
+    "level": 3
+  },
+  {
+    "id": "w-128",
+    "telugu": "బంగాళాదుంప",
+    "iso": "baṁgāḷāduṁpa",
+    "phonetic": "bamgaaluaadumpa",
+    "english": "potato",
+    "category": "food",
+    "level": 3
+  },
+  {
+    "id": "w-129",
+    "telugu": "మిరపకాయ",
+    "iso": "mirapakāya",
+    "phonetic": "mirapakaaya",
+    "english": "chilli",
+    "category": "food",
+    "level": 3
+  },
+  {
+    "id": "w-130",
+    "telugu": "కాఫీ",
+    "iso": "kāphī",
+    "phonetic": "kaaphee",
+    "english": "coffee",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-131",
+    "telugu": "టీ",
+    "iso": "ṭī",
+    "phonetic": "tee",
+    "english": "tea",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "id": "w-132",
+    "telugu": "గుడ్డు",
+    "iso": "guḍḍu",
+    "phonetic": "guddu",
+    "english": "egg",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "id": "w-133",
+    "telugu": "గడియారం",
+    "iso": "gaḍiyāraṁ",
+    "phonetic": "gadiyaaram",
+    "english": "clock",
+    "category": "objects",
+    "level": 3
+  },
+  {
+    "id": "w-134",
+    "telugu": "తాళం",
+    "iso": "tāḷaṁ",
+    "phonetic": "taaluam",
+    "english": "lock / key",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-135",
+    "telugu": "బుట్ట",
+    "iso": "buṭṭa",
+    "phonetic": "butta",
+    "english": "basket",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-136",
+    "telugu": "గొడుగు",
+    "iso": "goḍugu",
+    "phonetic": "godugu",
+    "english": "umbrella",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-137",
+    "telugu": "చీపురు",
+    "iso": "cīpuru",
+    "phonetic": "ceepuru",
+    "english": "broom",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-138",
+    "telugu": "అద్దం",
+    "iso": "addaṁ",
+    "phonetic": "addam",
+    "english": "mirror",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-139",
+    "telugu": "సంచి",
+    "iso": "saṁci",
+    "phonetic": "samci",
+    "english": "bag",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-140",
+    "telugu": "కత్తి",
+    "iso": "katti",
+    "phonetic": "katti",
+    "english": "knife",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-141",
+    "telugu": "ఫోన్",
+    "iso": "phōn",
+    "phonetic": "phoon",
+    "english": "phone",
+    "category": "objects",
+    "level": 2
+  },
+  {
+    "id": "w-142",
+    "telugu": "పన్ను",
+    "iso": "pannu",
+    "phonetic": "pannu",
+    "english": "tooth",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-143",
+    "telugu": "నాలుక",
+    "iso": "nāluka",
+    "phonetic": "naaluka",
+    "english": "tongue",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-144",
+    "telugu": "వేలు",
+    "iso": "vēlu",
+    "phonetic": "vaelu",
+    "english": "finger",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-145",
+    "telugu": "గుండె",
+    "iso": "guṁḍe",
+    "phonetic": "gumde",
+    "english": "heart",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-146",
+    "telugu": "జుట్టు",
+    "iso": "juṭṭu",
+    "phonetic": "juttu",
+    "english": "hair",
+    "category": "body",
+    "level": 2
+  },
+  {
+    "id": "w-147",
+    "telugu": "నీలం",
+    "iso": "nīlaṁ",
+    "phonetic": "neelam",
+    "english": "blue",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-148",
+    "telugu": "గోధుమ",
+    "iso": "gōdhuma",
+    "phonetic": "goodhuma",
+    "english": "brown",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-149",
+    "telugu": "నారింజ",
+    "iso": "nāriṁja",
+    "phonetic": "naarimja",
+    "english": "orange",
+    "category": "colors",
+    "level": 2
+  },
+  {
+    "id": "w-150",
+    "telugu": "రోజు",
+    "iso": "rōju",
+    "phonetic": "rooju",
+    "english": "day",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-151",
+    "telugu": "రాత్రి",
+    "iso": "rātri",
+    "phonetic": "raatri",
+    "english": "night",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-152",
+    "telugu": "ఉదయం",
+    "iso": "udayaṁ",
+    "phonetic": "udayam",
+    "english": "morning",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-153",
+    "telugu": "సాయంత్రం",
+    "iso": "sāyaṁtraṁ",
+    "phonetic": "saayamtram",
+    "english": "evening",
+    "category": "time",
+    "level": 3
+  },
+  {
+    "id": "w-154",
+    "telugu": "నేడు",
+    "iso": "nēḍu",
+    "phonetic": "naedu",
+    "english": "today",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-155",
+    "telugu": "రేపు",
+    "iso": "rēpu",
+    "phonetic": "raepu",
+    "english": "tomorrow",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-156",
+    "telugu": "నిన్న",
+    "iso": "ninna",
+    "phonetic": "ninna",
+    "english": "yesterday",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-157",
+    "telugu": "వారం",
+    "iso": "vāraṁ",
+    "phonetic": "vaaram",
+    "english": "week",
+    "category": "time",
+    "level": 2
+  },
+  {
+    "id": "w-158",
+    "telugu": "నెల",
+    "iso": "nela",
+    "phonetic": "nela",
+    "english": "month",
+    "category": "time",
+    "level": 1
+  },
+  {
+    "id": "w-159",
+    "telugu": "సంవత్సరం",
+    "iso": "saṁvatsaraṁ",
+    "phonetic": "samvatsaram",
+    "english": "year",
+    "category": "time",
+    "level": 3
+  },
+  {
+    "id": "w-160",
+    "telugu": "పదకొండు",
+    "iso": "padakoṁḍu",
+    "phonetic": "padakomdu",
+    "english": "eleven",
+    "category": "numbers",
+    "level": 3
+  },
+  {
+    "id": "w-161",
+    "telugu": "ఇరవై",
+    "iso": "iravai",
+    "phonetic": "iravai",
+    "english": "twenty",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-162",
+    "telugu": "వంద",
+    "iso": "vaṁda",
+    "phonetic": "vamda",
+    "english": "hundred",
+    "category": "numbers",
+    "level": 1
+  },
+  {
+    "id": "w-163",
+    "telugu": "వెయ్యి",
+    "iso": "veyyi",
+    "phonetic": "veyyi",
+    "english": "thousand",
+    "category": "numbers",
+    "level": 2
+  },
+  {
+    "id": "w-164",
+    "telugu": "నడవడం",
+    "iso": "naḍavaḍaṁ",
+    "phonetic": "nadavadam",
+    "english": "to walk",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-165",
+    "telugu": "పరుగెత్తడం",
+    "iso": "parugettaḍaṁ",
+    "phonetic": "parugettadam",
+    "english": "to run",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-166",
+    "telugu": "నిద్రపోవడం",
+    "iso": "nidrapōvaḍaṁ",
+    "phonetic": "nidrapoovadam",
+    "english": "to sleep",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-167",
+    "telugu": "ఆడడం",
+    "iso": "āḍaḍaṁ",
+    "phonetic": "aadadam",
+    "english": "to play",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-168",
+    "telugu": "పాడడం",
+    "iso": "pāḍaḍaṁ",
+    "phonetic": "paadadam",
+    "english": "to sing",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-169",
+    "telugu": "వినడం",
+    "iso": "vinaḍaṁ",
+    "phonetic": "vinadam",
+    "english": "to listen",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-170",
+    "telugu": "నేర్చుకోవడం",
+    "iso": "nērcukōvaḍaṁ",
+    "phonetic": "naercukoovadam",
+    "english": "to learn",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-171",
+    "telugu": "ఇవ్వడం",
+    "iso": "ivvaḍaṁ",
+    "phonetic": "ivvadam",
+    "english": "to give",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-172",
+    "telugu": "తీసుకోవడం",
+    "iso": "tīsukōvaḍaṁ",
+    "phonetic": "teesukoovadam",
+    "english": "to take",
+    "category": "verbs",
+    "level": 3
+  },
+  {
+    "id": "w-173",
+    "telugu": "కొనడం",
+    "iso": "konaḍaṁ",
+    "phonetic": "konadam",
+    "english": "to buy",
+    "category": "verbs",
+    "level": 2
+  },
+  {
+    "id": "w-174",
+    "telugu": "పొడవు",
+    "iso": "poḍavu",
+    "phonetic": "podavu",
+    "english": "long / tall",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-175",
+    "telugu": "పొట్టి",
+    "iso": "poṭṭi",
+    "phonetic": "potti",
+    "english": "short",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-176",
+    "telugu": "అందమైన",
+    "iso": "aṁdamaina",
+    "phonetic": "amdamaina",
+    "english": "beautiful",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-177",
+    "telugu": "వేగంగా",
+    "iso": "vēgaṁgā",
+    "phonetic": "vaegamgaa",
+    "english": "fast",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-178",
+    "telugu": "నెమ్మదిగా",
+    "iso": "nemmadigā",
+    "phonetic": "nemmadigaa",
+    "english": "slow",
+    "category": "adjectives",
+    "level": 3
+  },
+  {
+    "id": "w-179",
+    "telugu": "సులభం",
+    "iso": "sulabhaṁ",
+    "phonetic": "sulabham",
+    "english": "easy",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-180",
+    "telugu": "కష్టం",
+    "iso": "kaṣṭaṁ",
+    "phonetic": "kashtam",
+    "english": "difficult",
+    "category": "adjectives",
+    "level": 2
+  },
+  {
+    "id": "w-181",
+    "telugu": "అవును",
+    "iso": "avunu",
+    "phonetic": "avunu",
+    "english": "yes",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-182",
+    "telugu": "కాదు",
+    "iso": "kādu",
+    "phonetic": "kaadu",
+    "english": "no / not",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-183",
+    "telugu": "ఇక్కడ",
+    "iso": "ikkaḍa",
+    "phonetic": "ikkada",
+    "english": "here",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-184",
+    "telugu": "అక్కడ",
+    "iso": "akkaḍa",
+    "phonetic": "akkada",
+    "english": "there",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-185",
+    "telugu": "ఇప్పుడు",
+    "iso": "ippuḍu",
+    "phonetic": "ippudu",
+    "english": "now",
+    "category": "common",
+    "level": 3
+  },
+  {
+    "id": "w-186",
+    "telugu": "ఎక్కడ",
+    "iso": "ekkaḍa",
+    "phonetic": "ekkada",
+    "english": "where",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-187",
+    "telugu": "ఎప్పుడు",
+    "iso": "eppuḍu",
+    "phonetic": "eppudu",
+    "english": "when",
+    "category": "common",
+    "level": 3
+  },
+  {
+    "id": "w-188",
+    "telugu": "ఎందుకు",
+    "iso": "eṁduku",
+    "phonetic": "emduku",
+    "english": "why",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-189",
+    "telugu": "ఎవరు",
+    "iso": "evaru",
+    "phonetic": "evaru",
+    "english": "who",
+    "category": "common",
+    "level": 2
+  },
+  {
+    "id": "w-190",
+    "telugu": "ఏమిటి",
+    "iso": "ēmiṭi",
+    "phonetic": "aemiti",
+    "english": "what",
+    "category": "common",
+    "level": 2
+  }
+]
