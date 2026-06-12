@@ -7,6 +7,7 @@ import { Romanized, useSettings } from "@/lib/romanization";
 import { SpeakButton } from "@/components/SpeakButton";
 import { ProgressBar } from "@/components/ProgressBar";
 import { WordBreakdown } from "@/components/WordBreakdown";
+import { AlphabetChart } from "@/components/AlphabetChart";
 
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 
@@ -35,6 +36,8 @@ export function QuizRunner({
     const [answers, setAnswers] = useState<(string | null)[]>(() => questions.map(() => null));
     const [index, setIndex] = useState(0);
     const [done, setDone] = useState(false);
+    const [showChart, setShowChart] = useState(false);
+    const chartAvailable = section === "alphabet";
 
     const total = questions.length;
     const current = questions[index];
@@ -143,6 +146,21 @@ export function QuizRunner({
                 </div>
                 <ProgressBar value={(index + (answered ? 1 : 0)) / total} />
             </div>
+            {chartAvailable && (
+                <div className="mb-4 flex justify-end">
+                    <button
+                        type="button"
+                        onClick={() => setShowChart((v) => !v)}
+                        aria-pressed={showChart}
+                        className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium transition ${showChart
+                            ? "border-accent bg-accent text-white"
+                            : "border-border hover:bg-accent/10"
+                            }`}
+                    >
+                        <span aria-hidden>📋</span> {showChart ? "Hide chart" : "Show chart"}
+                    </button>
+                </div>
+            )}
 
             {/* Prompt */}
             <div className="mb-5 rounded-2xl border border-border bg-card p-6 text-center">
@@ -256,6 +274,32 @@ export function QuizRunner({
             <p className="mt-2 text-center text-xs text-muted">
                 Press A–D to answer · ← → to switch questions · Enter for next
             </p>
+
+            {/* Reference chart overlay (alphabet quizzes only) */}
+            {chartAvailable && showChart && (
+                <>
+                    <div
+                        className="fixed inset-0 z-40 bg-black/40"
+                        onClick={() => setShowChart(false)}
+                        aria-hidden
+                    />
+                    <aside className="fixed right-0 top-0 z-50 flex h-full w-80 max-w-[85vw] flex-col border-l border-border bg-background shadow-2xl">
+                        <div className="flex items-center justify-between border-b border-border px-4 py-3">
+                            <h3 className="text-sm font-semibold">Alphabet reference</h3>
+                            <button
+                                type="button"
+                                onClick={() => setShowChart(false)}
+                                className="rounded-lg border border-border px-2.5 py-1 text-sm font-medium hover:bg-accent/10"
+                            >
+                                ✕
+                            </button>
+                        </div>
+                        <div className="flex-1 overflow-y-auto p-4">
+                            <AlphabetChart />
+                        </div>
+                    </aside>
+                </>
+            )}
         </div>
     );
 }
