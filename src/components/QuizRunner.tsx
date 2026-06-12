@@ -136,7 +136,7 @@ export function QuizRunner({
     const correctOption = current.options.find((o) => o.correct);
 
     return (
-        <div>
+        <div className={chartAvailable && showChart ? "transition-[margin] lg:mr-84" : "transition-[margin]"}>
             <div className="mb-4">
                 <div className="mb-1 flex items-center justify-between text-xs text-muted">
                     <span>{modeLabel}</span>
@@ -275,30 +275,24 @@ export function QuizRunner({
                 Press A–D to answer · ← → to switch questions · Enter for next
             </p>
 
-            {/* Reference chart overlay (alphabet quizzes only) */}
+            {/* Reference chart side panel (alphabet quizzes only). Non-modal:
+                the quiz stays fully interactive while it is open. */}
             {chartAvailable && showChart && (
-                <>
-                    <div
-                        className="fixed inset-0 z-40 bg-black/40"
-                        onClick={() => setShowChart(false)}
-                        aria-hidden
-                    />
-                    <aside className="fixed right-0 top-0 z-50 flex h-full w-80 max-w-[85vw] flex-col border-l border-border bg-background shadow-2xl">
-                        <div className="flex items-center justify-between border-b border-border px-4 py-3">
-                            <h3 className="text-sm font-semibold">Alphabet reference</h3>
-                            <button
-                                type="button"
-                                onClick={() => setShowChart(false)}
-                                className="rounded-lg border border-border px-2.5 py-1 text-sm font-medium hover:bg-accent/10"
-                            >
-                                ✕
-                            </button>
-                        </div>
-                        <div className="flex-1 overflow-y-auto p-4">
-                            <AlphabetChart />
-                        </div>
-                    </aside>
-                </>
+                <aside className="fixed right-0 top-0 z-40 flex h-full w-80 max-w-[85vw] flex-col border-l border-border bg-background shadow-2xl">
+                    <div className="flex items-center justify-between border-b border-border px-4 py-3">
+                        <h3 className="text-sm font-semibold">Alphabet reference</h3>
+                        <button
+                            type="button"
+                            onClick={() => setShowChart(false)}
+                            className="rounded-lg border border-border px-2.5 py-1 text-sm font-medium hover:bg-accent/10"
+                        >
+                            ✕
+                        </button>
+                    </div>
+                    <div className="flex-1 overflow-y-auto p-4">
+                        <AlphabetChart />
+                    </div>
+                </aside>
             )}
         </div>
     );
