@@ -18,7 +18,7 @@ export function FlashcardStudy({
     startIndex?: number;
     onClose: () => void;
 }) {
-    const { pickRoman, globalReveal, audio, autoSpeak } = useSettings();
+    const { pickRoman, globalReveal, audio, autoSpeak, toggleAutoSpeak } = useSettings();
     const [index, setIndex] = useState(startIndex);
     const [flipped, setFlipped] = useState(false);
     const [autoReveal, setAutoReveal] = useState(false);
@@ -92,6 +92,26 @@ export function FlashcardStudy({
                         />
                     </span>
                     Auto-reveal
+                </button>
+                <button
+                    onClick={toggleAutoSpeak}
+                    aria-pressed={autoSpeak}
+                    title="Auto-play pronunciation when advancing to next card"
+                    className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm font-medium transition ${autoSpeak
+                        ? "border-accent bg-accent text-white"
+                        : "border-border hover:bg-accent/10"
+                        }`}
+                >
+                    <span
+                        className={`flex h-4 w-7 items-center rounded-full px-0.5 transition ${autoSpeak ? "bg-white/30" : "bg-border"
+                            }`}
+                    >
+                        <span
+                            className={`h-3 w-3 rounded-full bg-current transition ${autoSpeak ? "translate-x-3" : ""
+                                }`}
+                        />
+                    </span>
+                    🔊 Auto-play
                 </button>
                 <button
                     onClick={onClose}
