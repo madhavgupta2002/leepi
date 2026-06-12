@@ -173,3 +173,23 @@ export function breakdownWord(text: string): Segment[] {
   }
   return out;
 }
+
+export interface WordGroup {
+  /** The original word text. */
+  word: string;
+  segments: Segment[];
+}
+
+/**
+ * Split a (possibly multi-word) Telugu string into per-word groups, each with
+ * its own described character segments. Punctuation is trimmed from word
+ * boundaries so the displayed word stays clean.
+ */
+export function breakdownByWords(text: string): WordGroup[] {
+  return text
+    .split(/\s+/)
+    .map((w) => w.trim())
+    .filter((w) => w.length > 0)
+    .map((word) => ({ word, segments: breakdownWord(word) }))
+    .filter((g) => g.segments.length > 0);
+}
