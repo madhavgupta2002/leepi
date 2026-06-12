@@ -32,7 +32,7 @@ export function QuizSetup({
             count: Math.min(count, maxCount),
             modes: modes.length ? modes : [availableModes[0]],
             section,
-            seed: `${section}|${modes.join(",")}|${count}|${seedNum}|${scheme}`,
+            seed: `${section}|${modes.join(",")}|${count}|${seedNum}`,
             scheme,
         });
     }, [started, pool, count, modes, section, seedNum, scheme, availableModes, maxCount]);

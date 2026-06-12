@@ -76,7 +76,7 @@ export function AlphabetQuizSetup({ section }: { section: Section }) {
             count: effectiveCount,
             modes: modes.length ? modes : [AVAILABLE_MODES[0]],
             section,
-            seed: `${section}|${category}|${selectionKey}|${modes.join(",")}|${effectiveCount}|${seedNum}|${scheme}`,
+            seed: `${section}|${category}|${selectionKey}|${modes.join(",")}|${effectiveCount}|${seedNum}`,
             scheme,
         });
     }, [started, pool, effectiveCount, modes, section, category, selectionKey, seedNum, scheme]);
