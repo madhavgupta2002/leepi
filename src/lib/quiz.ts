@@ -116,7 +116,7 @@ function buildQuestion(
         prompt,
         promptIsTelugu,
         speak,
-        promptRoman: promptIsTelugu ? answer.roman : undefined,
+        promptRoman: answer.roman,
         options,
         cardId: answer.id,
     };

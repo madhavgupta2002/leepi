@@ -30,7 +30,7 @@ export function QuizRunner({
     onExit: () => void;
 }) {
     const { recordAnswer, recordQuiz } = useProgress();
-    const { audio, autoSpeak } = useSettings();
+    const { audio, autoSpeak, pickRoman } = useSettings();
     // One chosen option id per question (null = unanswered).
     const [answers, setAnswers] = useState<(string | null)[]>(() => questions.map(() => null));
     const [index, setIndex] = useState(0);
@@ -160,7 +160,9 @@ export function QuizRunner({
                         <SpeakButton text={current.speak} />
                     </div>
                 ) : (
-                    <p className="text-lg font-medium">{current.prompt}</p>
+                    <p className="text-lg font-medium">
+                        {current.promptRoman ? pickRoman(current.promptRoman) : current.prompt}
+                    </p>
                 )}
             </div>
 
